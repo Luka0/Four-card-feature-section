@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+body {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    margin: 80px 20px 10px 20px;
+    font-weight: normal;
+    color: gray;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4E5168;
+    margin: 0 20px 25px 20px;
+}
+
+.description {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 26px;
+    color: gray;
+    margin-bottom: 70px;
+}
+
+.card {
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 320px;
+    min-height: 220px;
+    text-align: left;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 30px 30px 10px 30px;
+    color: #4E5168;
+}
+
+.card-description {
+    margin: 0px 30px;
+    color: gray;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.supervisor-container {
+    box-shadow: 0px 10px 20px 5px rgb(217, 220, 245), 0px -4px 0 #3ED8DB;
+}
+
+.team-container {
+    box-shadow: 0px 10px 20px 5px rgb(217, 220, 245), 0px -4px 0 #E15A5B;
+    margin-top: 40px;
+}
+
+.karma-container {
+    box-shadow: 0px 10px 20px 5px rgb(217, 220, 245), 0px -4px 0 #F4AB4F;
+    margin-top: 40px;
+}
+
+.calculator-container {
+    box-shadow: 0px 10px 20px 5px rgb(217, 220, 245), 0px -4px 0 #529CE7;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card img {
+    width: 80px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+@media (min-width: 1030px){
+    .card{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .supervisor-container {
+        left: -700px;
+        top: 410px;
+    }
+
+    .calculator-container {
+        top: 410px;
+        right: -700px;
+    }
+
+    .karma-container {
+        top: 550px;
+}
